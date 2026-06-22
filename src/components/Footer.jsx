@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-400 px-4 py-8">
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <img src="/logo.png" alt="Moby Cell" className="h-10 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Moby Cell" className="h-10 w-auto" />
           <div>
             <p className="text-white font-bold text-sm">Moby Cell</p>
             <p className="text-xs">Assistência Técnica de Celulares</p>
