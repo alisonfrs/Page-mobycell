@@ -35,6 +35,10 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        with:
+          # Cria/ajusta o Pages para publicar via GitHub Actions automaticamente,
+          # mesmo que esteja configurado como "Deploy from a branch".
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
