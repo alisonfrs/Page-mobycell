@@ -2,7 +2,7 @@
 # Ao conectar o repositório no Render, ele detecta este arquivo e configura tudo sozinho.
 services:
   - type: web
-    name: moby-cell
+    name: mobycell-curitiba
     runtime: static
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
