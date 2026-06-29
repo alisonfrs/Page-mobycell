@@ -1,0 +1,18 @@
+# Blueprint do Render para a landing page da Moby Cell (site estático Vite).
+# Ao conectar o repositório no Render, ele detecta este arquivo e configura tudo sozinho.
+services:
+  - type: web
+    name: moby-cell
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: ./dist
+    # SPA: qualquer rota cai no index.html
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    # Cabeçalhos de cache para os assets com hash (carregamento mais rápido)
+    headers:
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=31536000, immutable
