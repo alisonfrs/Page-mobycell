@@ -7,7 +7,7 @@ export default function Footer() {
           <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Moby Cell" className="h-10 w-auto" />
           <div>
             <p className="text-white font-bold text-sm">Moby Cell</p>
-            <p className="text-xs">Assistência Técnica de Celulares</p>
+            <p className="text-xs">Conserto e Reparo de Celulares</p>
           </div>
         </div>
         <div className="text-center sm:text-right">

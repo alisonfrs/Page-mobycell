@@ -14,7 +14,7 @@ export default function Header() {
     <header className="sticky top-0 z-40 bg-white shadow-sm border-b border-gray-100">
       <div className="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
         <a href="#" aria-label="Moby Cell - Início">
-          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Moby Cell - Assistência Técnica de Celulares" className="h-12 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Moby Cell - Conserto e Reparo de Celulares" className="h-12 w-auto" />
         </a>
 
         <div className="flex items-center gap-3">

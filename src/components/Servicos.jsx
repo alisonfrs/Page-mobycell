@@ -17,7 +17,7 @@ const services = [
   {
     emoji: '🔧',
     title: 'Reparo em placa',
-    text: 'Análise técnica para defeitos mais complexos no hardware.',
+    text: 'Diagnóstico e reparo de hardware para defeitos mais complexos.',
   },
   {
     emoji: '💧',
@@ -35,7 +35,7 @@ export default function Servicos() {
   return (
     <section id="servicos" className="bg-gray-50 px-4 py-12 md:py-16">
       <div className="max-w-4xl mx-auto">
-        <h2 className="section-title">Assistência técnica para celulares</h2>
+        <h2 className="section-title">Conserto e reparo de celulares</h2>
         <p className="text-center text-gray-500 mt-2 mb-8">Serviços com qualidade, peças testadas e garantia.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {services.map((s) => (

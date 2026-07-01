@@ -51,7 +51,7 @@ export default function Diferenciais() {
     <section id="diferenciais" className="bg-gray-50 px-4 py-12 md:py-16">
       <div className="max-w-4xl mx-auto">
         <h2 className="section-title">Por que escolher a Moby Cell?</h2>
-        <p className="text-center text-gray-500 mt-2 mb-8">Assistência técnica de celulares com qualidade, transparência e agilidade.</p>
+        <p className="text-center text-gray-500 mt-2 mb-8">Conserto de celulares com qualidade, transparência e agilidade.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {cards.map((card) => (
             <article key={card.title} className="card flex gap-4 items-start">
