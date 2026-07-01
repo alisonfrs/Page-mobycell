@@ -7,7 +7,6 @@ const problems = [
   'Alto-falante ou microfone com defeito',
   'Câmera com problema',
   'Aparelho molhado ou oxidado',
-  'Celular travando ou desligando sozinho',
 ]
 
 export default function Problemas() {

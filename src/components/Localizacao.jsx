@@ -35,8 +35,8 @@ export default function Localizacao() {
               </svg>
             </span>
             <div>
-              <p className="font-semibold text-white">Atendimento de segunda a sábado</p>
-              <p className="text-gray-400 text-sm mt-0.5">Consulte horários pelo WhatsApp</p>
+              <p className="font-semibold text-white">Segunda a sexta: 09:00 às 18:00h</p>
+              <p className="text-gray-400 text-sm mt-0.5">Sábado: 09:00 às 13:00h</p>
             </div>
           </div>
         </div>

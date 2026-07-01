@@ -15,11 +15,6 @@ const services = [
     text: 'Para aparelhos que não carregam ou carregam apenas em certa posição.',
   },
   {
-    emoji: '🔧',
-    title: 'Reparo em placa',
-    text: 'Diagnóstico e reparo de hardware para defeitos mais complexos.',
-  },
-  {
     emoji: '💧',
     title: 'Oxidação',
     text: 'Avaliação para aparelhos que tiveram contato com água ou umidade.',
