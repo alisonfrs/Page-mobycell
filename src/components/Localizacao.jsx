@@ -24,8 +24,8 @@ export default function Localizacao() {
               </svg>
             </span>
             <div>
-              <p className="font-semibold text-white">Campo de Santana, Curitiba — PR</p>
-              <p className="text-gray-400 text-sm mt-0.5">Endereço completo disponível no WhatsApp</p>
+              <p className="font-semibold text-white">Rua Ângelo Tozim, 239 — Campo de Santana</p>
+              <p className="text-gray-400 text-sm mt-0.5">Curitiba/PR — CEP 81490-030</p>
             </div>
           </div>
           <div className="flex items-center gap-3">

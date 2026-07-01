@@ -12,6 +12,12 @@ export default function Footer() {
         </div>
         <div className="text-center sm:text-right">
           <p className="text-xs">Campo de Santana — Curitiba/PR</p>
+          <p className="text-xs mt-1">CNPJ: 42.252.647/0001-50</p>
+          <p className="text-xs mt-1">
+            <a href={`${import.meta.env.BASE_URL}privacidade.html`} className="underline hover:text-white transition-colors">
+              Política de Privacidade
+            </a>
+          </p>
           <p className="text-xs mt-1">© {year} Moby Cell. Todos os direitos reservados.</p>
         </div>
       </div>
